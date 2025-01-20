@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-position: 100%;
+}
+
+body {
+    font-family: 'Albert Sans', sans-serif;
+    background-color: white;
+    overflow: hidden;
+}
+
+.image{
+    position: relative;
+}
+
+@keyframes example{
+    from{opacity: 0%;}
+    to{opacity: 100%;};
+}
+
+.image img{
+    margin-top: 110px;
+    margin-left:120px;
+    height:500px;
+    animation-name: example;
+    animation-duration: 2s;
+    position: absolute;
+}
+
+@keyframes box{
+    from{opacity:0;}
+    to{opacity: 100%;};
+}
+
+.sign-up{
+    
+    z-index: 2;
+    
+    position: relative;
+    animation-name: box;
+    animation-duration: 4s;
+    
+    
+}
+
+
+.sign-up h1{
+    position: absolute;
+    color: #000;
+    text-align: center;
+    font-family: "Albert Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    z-index: 4;
+    
+    inset: 125px 398px 706px 733px;
+    width: 309px;
+
+
+}
+
+
+.sign-up ul{
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    
+    width: 400px;
+    height: 49px;
+    flex-shrink: 0;
+    inset: 175px 400px 635px 731px;
+    
+    
+}
+.sign-up ul .ip{
+    width:315px;
+    height: 45px;
+    margin-bottom: 10px;
+    
+}
+
+.sign-up ul .ip input{
+    width:315px;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sign-up ul .ip input:hover{
+    background-color: rgba(195, 199, 202, 0.801);
+}
+
+.sign-up .c-box{
+    width: 10px;
+    height: 10px;
+    margin-right: 13px;
+    display: flex;
+    align-items: center;
+    
+    inset: 362px 398px 483px 731px;
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+    
+}
+
+
+
+.sign-up .c-txt{
+    color: #000;
+    font-family: "Albert Sans";
+    font-size: 12px;
+    position: absolute;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    inset: 359px 398px 483px 750px;
+    width: 310px;
+    height: 22px;
+    flex-shrink: 0;
+    
+}
+
+.sign-up .sign-btn{
+    inset:410px 398px 483px 727px;
+    position: absolute;
+    width:330px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    
+    border-radius: 3px;
+    background: #7A1DC1;
+    z-index: 3;
+}
+
+.sign-up .sign-txt{
+    color: white;
+    background-color:#7A1DC1; 
+    
+    
+    text-decoration: none;
+    font-family: "Albert Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    margin-left:-165px;
+    width:330px;
+    height: 45px;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 4;
+
+}
+
+.sign-up .sign-txt p{
+    margin-top: 13px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.sign-up .sign-txt:hover{
+    background-color: #59029c;
+}
+
+.sign-up .terms-privacy{
+    color: #000;
+    text-align: center;
+    font-family: "Albert Sans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    inset:470px 398px 483px 740px;
+    width:300px;
+    
+
+}
+
+.sign-up .terms-privacy .link{
+    color: #7A1DC1;
+    text-decoration: none;
+   
+}
+
+.sign-up .acc-yes{
+    width:330px;
+    height: 45px;
+    flex-shrink: 0;
+    background: #e2dddde5;
+    position: absolute;
+    inset:500px 398px 483px 727px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sign-up .acc-yes p{
+    color: #000;
+    text-align: center;
+    font-family: "Albert Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 13px;
+    
+}
+
+.sign-up .acc-yes p a{
+    color: #7A1DC1;
+    text-decoration: underline;
+}
+
